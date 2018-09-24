@@ -1,8 +1,315 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+/* body */
+body {
+  height: 1000px;
+  background-color: white
+}
+
+
+/* TEXTS */
+h3{color:pink;
+  text-align: center;}
+
+h3 {
+  font-family: garamond, cursive, italic;
+}
+
+
+p{color: #837E7C;
+  text-align: center;
+  font-family:Garamond;
+  font-size:100%;}
+
+
+
+
+
+
+
+
+/* DIVS */
+/*COLUMNS 1 GREY - Flex container*/
+
+/*HEADER - Top line - thin*/
+/*NAVIGATOR - Top & Bottom line - thin*/
+.columns-1-grey-thin-container{
+  background-color: grey;
+  width: 1262px;
+  height: 3px;
+}
+
+.columns-1-grey-thin-center-container{
+  background-color: grey;
+  width: 1262px;
+  height: 3px;
+}
+
+
+
+
+/*COLUMNS 1 PINK - Flex container*/
+
+/*HEADER - Top line - thin*/
+/*FOOTER - Bottom line - thin*/
+.columns-1-pink-thin-container{
+  background-color: pink;
+  width: 1262px;
+  height: 15px;
+}
+
+
+
+
+
+
+/*COLUMNS 1 Golden - Flex container*/
+
+/*FOOTER - Bottom line - thin*/
+.columns-1-golden-thin-container{
+  background-color: #fdd017;  /* golden*/
+  width: 1262px;
+  height: 15px;
+}
+
+
+
+
+
+
+/*COLUMNS 1 TRANSLUCENT - Flex container*/
+
+/*SKILLS*/
+.columns-1-translucent-container{
+  padding: 10px 0;
+  text-align: center
+}
+
+.columns-1-translucent-center-container{
+  width: 900px;
+  height: 50px;
+  padding: 5px;
+}
+
+.row {
+  padding: 10px;
+}
+
+
+/*COLUMNS 2 TRANSLUCENT - Flex container*/
+
+/*ABOUT*/
+.columns-2-translucent-container{
+  padding: 10px 0;
+  text-align: center;
+  padding: 10px 150px;
+}
+
+.columns-2-translucent-center-container{
+  width: 900px;
+  height: 300px;
+  padding: 5px;
+}
+
+.row {
+  padding: 10px;
+}
+
+
+
+
+
+
+/*COLUMNS 3 TRANSLUCENT - Flex container */
+
+/*ABOUT */
+/*PROJECTS */
+/*GALLERY*/
+/*TENNIS*/
+
+.columns-3-container{
+  color: #837E7C;
+  text-align: center;
+  font-family:Garamond;
+  font-size:100%;
+  text-align: center;
+  padding: 0px 150px;
+}
+
+
+.row{
+  height: 400px;
+}
+
+
+
+/*COLUMNS 4 TRANSLUCENT - Flex container */
+
+/*INDEX */
+
+.columns-3-container{
+  color: #837E7C;
+  text-align: center;
+  font-family:Garamond;
+  font-size:100%;
+  text-align: center;
+  padding: 0px 150px;
+}
+
+
+.row{
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+/*COLUMNS 6 TRANSLUCENT - Flex container */
+
+/*SKILLS*/
+.columns-6-container{
+  color: #837E7C;
+  text-align: center;
+  font-family:Garamond;
+  font-size:100%;
+  text-align: center;
+  padding: 10px 150px;
+}
+
+
+.row{
+  height: 200px;
+  padding: 5px 20px;
+}
+
+
+
+/*HEADER - COLUMNS 1 WHITE - Flex container */
+
+.header-container {
+  background-color: white;
+  padding: 0px 0;
+  text-align: center
+}
+
+
+.header {
+  width: 900px;
+  height: 350px;
+}
+
+
+
+
+
+
+/*  NAVIGATORS flex container */
+
+.navbar-golden{
+  background-color: pink;
+  text-align:center;
+}
+
+.a:hover {color:white;}
+
+
+
+
+
+
+
+
+
+
+/*MAIN - COLUMNS 1 TRANSLUCENT - Flex container */
+.colums-main-container {
+  padding: 0px 0;
+  text-align: center;
+}
+
+.row-main{
+  height: 2000px;
+}
+
+
+
+/*MAIN - COLUMNS 1 TRANSLUCENT - Flex container */
+.main-container {
+  text-align: center;
+  padding: 0px;
+}
+
+.main {
+  width: 1230px;
+  height: 2000px;
+}
+
+/*BACKGROUND pict  - COLUMNS 1 TRANSLUCENT - Flex container - me lo arreglo el chico vietnamise tung khuat */
+.background-container{
+  background: url("../images/backgrounds/white.png") no-repeat fixed center;
+}
+
+.background-container{
+  width: 1230px;
+  height: 2000px;
+}
+
+
+
+
+
+/*FOOTER - Grey BIG - COLUMN 1 - Flex container*/
+.colums-footer-grey-container {
+  background-color: grey;  /* grey */
+  padding: 10px 190px;
+  text-align: center
+}
+
+.row-footer-grey-center {
+  width: 900px;
+  height: 200px;
+}
+
+
+
+
+
+
+/***********************************************************************************************************/
+
+
+
+/*NAVIGATOR - Vertical */
+.navigator-vertical-container {
+  float: left;
+  color: #fff;
+  background-color: #fdd017;  /* golden*/
+  padding: 10px;
+  text-align: center
+}
+
+.nav-ul { list-style-type: none; }
+.nav-a { text-decoration: none; }
+
+.a:hover {color:#000066;}
+
+.navigator-vertical {
+  width: 120px;
+  height: 1500px;
 }
