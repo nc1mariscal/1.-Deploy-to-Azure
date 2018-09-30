@@ -1,7 +1,6 @@
-const index = function (reg, res){
-    res.render ('index', {title:'MY WEB APP'});
+const index = function(req, res){
+    res.render('index');
 };
-
 module.exports = {
     index
 };
