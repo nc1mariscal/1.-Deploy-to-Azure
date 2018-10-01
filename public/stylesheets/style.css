@@ -6,3 +6,22 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1 {
+   color: hotpink;
+   text-align: center
+ }
+
+h3 {
+  color: slategrey;
+  text-align: center
+}
+
+
+p, ol {
+  color: #837E7C;
+  text-align: center;
+  font-size: 100%
+}
+
+
